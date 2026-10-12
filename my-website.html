@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanthikarn (JaneJa) | Personal Space</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2b2d42;
+            --text-sub: #5c677d;
+            --accent: #4a4e69;
+            --border: #e9ecef;
+        }
+
+        body {
+            font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .profile-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            border: 1px solid var(--border);
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 0 0 8px 0;
+            color: var(--text-main);
+        }
+
+        .subtitle {
+            color: var(--text-sub);
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+
+        .bio-quote {
+            background: #f1f3f5;
+            border-left: 4px solid var(--accent);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            margin-bottom: 28px;
+            color: #495057;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+            margin-top: 28px;
+            color: var(--accent);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .project-item {
+            margin-bottom: 16px;
+        }
+
+        .project-item a {
+            color: var(--accent);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .project-item a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-card">
+        <!-- รูปโปรไฟล์ของเจน -->
+        <img src="https://media.discordapp.net/attachments/1412164549804822539/1559109471572205629/1.png" alt="Nanthikarn" class="avatar">
+        
+        <h1>Nanthikarn Na Ayudhya (JaneJa)</h1>
+        <div class="subtitle">Medical Student & Health Data Analytics Enthusiast</div>
+
+        <div class="bio-quote">
+            "Dedicated to precision in medicine Stay sharp."
+        </div>
+
+        <h2> About Me</h2>
+        <p>
+            สวัสดีค่ะ เจนนะคะ ชอบนั่งอ่านหนังสือบทเรียน สนใจเรื่องคณิตศาสตร์ สถิติ และกำลังฝึกเขียนภาษา Python เพื่อนำมาใช้วิเคราะห์ข้อมูลสุขภาพค่ะ
+        </p>
+
+        <h2> Code & Projects</h2>
+        <div class="project-item">
+             <a href="https://github.com/NANTHIKARNNAAYUDHYA/simple-ecg-simulator" target="_blank">Simple ECG Simulator</a>
+            <br><small>ระบบจำลองสัญญาณไฟฟ้าหัวใจด้วย Python สำหรับศึกษาคลื่น P-QRS-T เบื้องต้น</small>
+        </div>
+        <div class="project-item">
+             <a href="https://github.com/NANTHIKARNNAAYUDHYA/Basic-BMI-Calculator" target="_blank">Basic BMI Calculator</a>
+            <br><small>โปรแกรมคำนวณและประเมินค่าดัชนีมวลกาย</small>
+        </div>
+
+        <h2> Core Interests</h2>
+        <ul>
+            <li>การวิเคราะห์ข้อมูลสุขภาพ (Health Data Analytics)</li>
+            <li>การประมวลผลสัญญาณชีวภาพ (Biomedical Signal Processing)</li>
+            <li>คณิตศาสตร์พื้นฐานและสถิติการแพทย์ (Biostatistics)</li>
+            <li>ทบทวนสรุปบทเรียนสไตล์โน้ตอ่านสอบ</li>
+        </ul>
+
+        <footer>
+            © Nanthikarn Na Ayudhya — Personal Space
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
